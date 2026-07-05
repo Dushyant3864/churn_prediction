@@ -110,7 +110,7 @@ The application provides:
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/Customer_Churn_Prediction.git
+git clone https://github.com/Dushyant3864/churn_prediction.git
 ```
 
 Install dependencies
