@@ -170,8 +170,8 @@ predict_button = st.button("🚀 Predict Churn", use_container_width=True)
 # Prediction Result
 # -----------------------------
 if predict_button:
-    prediction = model.predict(input_df)[0]
-    probability = model.predict_proba(input_df)[0][1]
+    prediction = model.predict(input_df, validate_features=False)[0]
+    probability = model.predict_proba(input_df, validate_features=False)[0][1]
 
     st.subheader("📊 Prediction Result")
 
